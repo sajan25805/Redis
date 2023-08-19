@@ -1,5 +1,5 @@
 ## Redis (Remote Dictionary Server)
-#### Introduction
+### Introduction
 
 Redis is an open source (BSD licensed), in-memory data structure store used as a nosql database, cache, message broker, and streaming engine.
 
