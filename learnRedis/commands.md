@@ -31,7 +31,20 @@ Example: DEL Name  Result => `(integer) 1`
 -`FLUSHALL`: Clear all tne things in the redis database.
 
 -`KEYS pattern`: Return the key of certain patterns. 
-Example : `KEY *`: Return all the keys in the redis database.
+Example : `KEYS *`: Return all the keys in the redis database.
+
+ ************************ ListCommands ************************
+
+-`LPUSH KEY VALUE` stores the value to the beginning of the list.
+Example : `LPUSH NAME sajan`:  
+
+-`LRANGE KEY START STOP`: Returns the value of the list from the start to the stop.
+Example : `LRANGE NAME 0 -1`: Returns the value of the list from the index 0 to the last index of the list.  Here we got:
+1) "HARI"
+2) "sajan"
+
+
+
 
 
 
